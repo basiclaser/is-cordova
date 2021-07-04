@@ -1,0 +1,50 @@
+{
+  "_args": [
+    [
+      "is-cordova@1.0.0",
+      "C:\\Users\\basic\\projects\\LightDrive\\web"
+    ]
+  ],
+  "_from": "is-cordova@1.0.0",
+  "_id": "is-cordova@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kh4qBBF4yHvu4FL6Jx3jePcEZsblnDK4dQDvp6TnF+eW2JAITI96yI6PNTOWbc/cdYQby9E6dNys4zlZCYXp8g==",
+  "_location": "/is-cordova",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "is-cordova@1.0.0",
+    "name": "is-cordova",
+    "escapedName": "is-cordova",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/is-cordova/-/is-cordova-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "C:\\Users\\basic\\projects\\LightDrive\\web",
+  "author": "",
+  "description": "is-cordova will tell you if the app is cordova",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "keywords": [
+    "cordova",
+    "is"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "is-cordova",
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublish": "npm run build"
+  },
+  "version": "1.0.0"
+}

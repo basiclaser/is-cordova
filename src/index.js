@@ -1,0 +1,1 @@
+export default window.hasOwnProperty("cordova") || typeof(cordova) == "object" || !!window.cordova
